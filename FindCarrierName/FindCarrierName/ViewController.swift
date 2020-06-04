@@ -19,8 +19,9 @@ class ViewController: UIViewController {
         // Find Network Carrier Name
         FindCarrierDetect()
         
-        CTTelephonyNetworkInfo().mo
         
+        let status : Bool = FindIntertConnectivityInSIM()
+        print(status)
         
     }
     
